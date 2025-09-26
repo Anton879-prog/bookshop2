@@ -5627,3 +5627,56 @@ Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8
 2025-09-26 01:25:53.833 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-09-26 01:25:53.836 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-09-26 01:25:53.838 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-26 03:01:08.332 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-09-26 03:01:08.359 INFO  [restartedMain] c.e.bookshop2.Bookshop2Application - Starting Bookshop2Application using Java 25 with PID 6624 (C:\Users\Tihonya\IdeaProjects\bookshop2\target\classes started by Tihonya in C:\Users\Tihonya\IdeaProjects\bookshop2)
+2025-09-26 03:01:08.360 DEBUG [restartedMain] c.e.bookshop2.Bookshop2Application - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-26 03:01:08.360 INFO  [restartedMain] c.e.bookshop2.Bookshop2Application - No active profile set, falling back to 1 default profile: "default"
+2025-09-26 03:01:08.389 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-26 03:01:08.389 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-26 03:01:08.990 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-26 03:01:09.056 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2025-09-26 03:01:09.451 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-26 03:01:09.464 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-26 03:01:09.466 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-26 03:01:09.467 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-26 03:01:09.495 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-26 03:01:09.496 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1106 ms
+2025-09-26 03:01:09.588 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-26 03:01:09.614 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.1.Final
+2025-09-26 03:01:09.615 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-09-26 03:01:09.699 INFO  [restartedMain] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-09-26 03:01:09.758 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-26 03:01:09.768 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-26 03:01:09.872 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a74ee52
+2025-09-26 03:01:09.872 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-26 03:01:09.908 INFO  [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@76facde4
+2025-09-26 03:01:10.051 INFO  [restartedMain] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-09-26 03:01:10.543 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-09-26 03:01:10.721 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-26 03:01:10.943 INFO  [restartedMain] c.e.bookshop2.service.CacheManager - 🔍 Кэш до очистки: []
+2025-09-26 03:01:10.944 INFO  [restartedMain] c.e.bookshop2.service.CacheManager - 🧹 Очистка устаревших записей из кэша, текущий размер: 0, ключи: []
+2025-09-26 03:01:11.002 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-26 03:01:11.658 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-26 03:01:11.676 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-26 03:01:11.686 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-26 03:01:11.696 INFO  [restartedMain] c.e.bookshop2.Bookshop2Application - Started Bookshop2Application in 3.673 seconds (process running for 4.091)
+2025-09-26 03:01:11.698 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🔍 Кэш до очистки: []
+2025-09-26 03:01:11.699 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🧹 Очистка устаревших записей из кэша, текущий размер: 0, ключи: []
+2025-09-26 03:01:21.694 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🔍 Кэш до очистки: []
+2025-09-26 03:01:21.695 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🧹 Очистка устаревших записей из кэша, текущий размер: 0, ключи: []
+2025-09-26 03:01:31.695 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🔍 Кэш до очистки: []
+2025-09-26 03:01:31.695 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🧹 Очистка устаревших записей из кэша, текущий размер: 0, ключи: []
+2025-09-26 03:01:40.960 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-26 03:01:40.960 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-26 03:01:40.961 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-09-26 03:01:40.986 INFO  [http-nio-8080-exec-2] c.e.bookshop2.aspect.LoggingAspect - [GET] /api/logs/2025-09-24 - ResponseEntity com.example.bookshop2.controller.LogController.downloadLog(String) with params: 2025-09-24
+2025-09-26 03:01:41.695 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🔍 Кэш до очистки: []
+2025-09-26 03:01:41.695 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🧹 Очистка устаревших записей из кэша, текущий размер: 0, ключи: []
+2025-09-26 03:01:48.252 INFO  [http-nio-8080-exec-3] c.e.bookshop2.aspect.LoggingAspect - [GET] /api/logs/2025-09-25 - ResponseEntity com.example.bookshop2.controller.LogController.downloadLog(String) with params: 2025-09-25
+2025-09-26 03:01:51.703 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🔍 Кэш до очистки: []
+2025-09-26 03:01:51.706 INFO  [scheduling-1] c.e.bookshop2.service.CacheManager - 🧹 Очистка устаревших записей из кэша, текущий размер: 0, ключи: []
+2025-09-26 03:01:58.924 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-26 03:01:58.934 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-26 03:01:58.944 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-26 03:01:58.944 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-26 03:01:58.954 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

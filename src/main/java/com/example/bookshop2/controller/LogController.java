@@ -39,9 +39,6 @@ public class LogController {
     @GetMapping("/{date}")
     public ResponseEntity<String> downloadLog(
             @Parameter(description = "Дата лог-файла в формате yyyy-MM-dd") @PathVariable String date) {
-        String filename = String.format("bookshop2-%s.log", date);
-        Path filePath = Paths.get(LOG_DIRECTORY).resolve(filename);
-
         try {
             String logContent = logService.getLogForDate(date); // Получаем отфильтрованные логи как строку
             return ResponseEntity.ok()

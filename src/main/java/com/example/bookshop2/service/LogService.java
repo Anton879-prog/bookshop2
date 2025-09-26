@@ -100,7 +100,7 @@ public class LogService {
             Files.lines(filePath)
                     .filter(line -> line.startsWith(date)) // Фильтруем строки по дате (yyyy-MM-dd)
                     .forEach(line -> filteredLogs.append(line).append("\n"));
-            if (filteredLogs.length() == 0) {
+            if (filteredLogs.isEmpty()) {
                 throw new LogNotFoundException("Логи за дату " + date + " не найдены в общем файле");
             }
             return filteredLogs.toString();
